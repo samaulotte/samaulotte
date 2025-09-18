@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on [cyber for Brain](https://github.com/DT-Service-Consulting)
 
-- 🧑‍💻 I'm a Systems and Network Administrator, Cyber Security Student and **Webmaster in charge of coordinating multiple websites** at DTSC.
+- 🧑‍💻 I'm a Systems and Network Administrator, Cyber Security Student and **Webmaster in charge of coordinating multiple websites**.
 
 - 💬 Ask me about **any tech news**
 
