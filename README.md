@@ -16,10 +16,10 @@ Systems, cloud and security at DT Services & Consulting. End-to-end application 
 
 <h2>Built in the workshop</h2>
 <p>Scheduling, digital twins and resilience testing. From the model to the interface, with the infrastructure underneath.</p>
-<p><a href="#warevia"><img src="project-images/warevia.png" width="260" alt="Explore Warevia — warehouse digital twin"></a>
-<a href="#humapace"><img src="project-images/humapace.png" width="260" alt="Explore HumaPace — scenario studio"></a>
-<a href="#uas"><img src="project-images/uas.png" width="260" alt="Explore Resilient UAS Lab — mission control"></a></p>
-<p><a href="#warevia">Warevia</a> · <a href="#humapace">HumaPace</a> · <a href="#uas">Resilient UAS Lab</a></p>
+<p><a href="#user-content-warevia"><img src="project-images/warevia.png" width="260" alt="Explore Warevia — warehouse digital twin"></a>
+<a href="#user-content-humapace"><img src="project-images/humapace.png" width="260" alt="Explore HumaPace — scenario studio"></a>
+<a href="#user-content-uas"><img src="project-images/uas.png" width="260" alt="Explore Resilient UAS Lab — mission control"></a></p>
+<p><a href="#user-content-warevia">Warevia</a> · <a href="#user-content-humapace">HumaPace</a> · <a href="#user-content-uas">Resilient UAS Lab</a></p>
 <details><summary><strong>Conductor</strong> — Finite-capacity planning</summary>
 <a name="conductor"></a>
 <p>Odoo-connected planning with OR-Tools CP-SAT, versioned scenarios and human approval.</p>
