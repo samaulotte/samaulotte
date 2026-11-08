@@ -1,183 +1,189 @@
-<h1 align="center">Hi 👋, I'm Samuel Aulotte</h1>
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="workshop-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="workshop-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="workshop-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="workshop-light.gif">
+  <img alt="Samuel Aulotte — Systems, Software, Security. An isometric electronics workshop." src="workshop-light.gif" width="100%">
+</picture>
 
-<h3 align="center">
-Systems & Network Administrator · Cybersecurity · Cloud · Automation
-</h3>
+# Systems, cloud & security.
 
-<p align="center">
-  <a href="https://github.com/samaulotte">
-    <img src="https://komarev.com/ghpvc/?username=samaulotte&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-  </a>
+I connect secure infrastructure with useful software.
+
+Systems, cloud and security at DT Services & Consulting. End-to-end application development, automation and support for secure AI R&D environments.
+
+[Explore my portfolio ↗](https://samuel-aulotte-portfolio.dt-services-1346.chatgpt.site) · [CV](https://samuel-aulotte-portfolio.dt-services-1346.chatgpt.site/documents/cv-samuel-aulotte.pdf) · [LinkedIn](https://www.linkedin.com/in/samuel-aulotte/) · [Contact](mailto:samuel.aulotte@dtsc.be)
+
+<h2>Built in the workshop</h2>
+<p>Scheduling, digital twins and resilience testing. From the model to the interface, with the infrastructure underneath.</p>
+<p><a href="#warevia"><img src="project-images/warevia.png" width="260" alt="Explore Warevia — warehouse digital twin"></a>
+<a href="#humapace"><img src="project-images/humapace.png" width="260" alt="Explore HumaPace — scenario studio"></a>
+<a href="#uas"><img src="project-images/uas.png" width="260" alt="Explore Resilient UAS Lab — mission control"></a></p>
+<p><a href="#warevia">Warevia</a> · <a href="#humapace">HumaPace</a> · <a href="#uas">Resilient UAS Lab</a></p>
+<details><summary><strong>Conductor</strong> — Finite-capacity planning</summary>
+<a name="conductor"></a>
+<p>Odoo-connected planning with OR-Tools CP-SAT, versioned scenarios and human approval.</p>
+<p>Python · FastAPI · Next.js · PostgreSQL · OR-Tools · Odoo</p>
+<p><a href="project-images/conductor-demo.png"><img src="project-images/conductor-demo.png" width="780" alt="Conductor — pedagogical portfolio demonstration with synthetic data."></a></p><p><em>Conductor — pedagogical portfolio demonstration with synthetic data.</em></p>
+</details>
+<details><summary><strong>OPERIS & Warevia</strong> — Industrial digital twins</summary>
+<a name="warevia"></a>
+<p>3D production and warehouse twins, isolated MES simulation, transactional inventory and traceability.</p>
+<p>Three.js · React Three Fiber · FastAPI · PostgreSQL · Docker</p>
+<p><a href="project-images/warevia.png"><img src="project-images/warevia.png" width="780" alt="Warevia — warehouse laboratory, simulated inventory."></a></p><p><em>Warevia — warehouse laboratory, simulated inventory.</em></p>
+<p><a href="project-images/warevia-anatomy.png"><img src="project-images/warevia-anatomy.png" width="390" alt="Warevia Anatomy — rack and inventory inspection"></a></p>
+</details>
+<details><summary><strong>HumaPace</strong> — Workforce scheduling</summary>
+<a name="humapace"></a>
+<p>Qualifications, availability, replacements and travel constraints, with human-approved scenarios.</p>
+<p>Python · OR-Tools · FastAPI · Next.js · PostgreSQL · Leaflet</p>
+<p><a href="project-images/humapace.png"><img src="project-images/humapace.png" width="780" alt="HumaPace — scenario studio, synthetic education datasets."></a></p><p><em>HumaPace — scenario studio, synthetic education datasets.</em></p>
+</details>
+<details><summary><strong>Resilient UAS Lab</strong> — Resilience under failure</summary>
+<a name="uas"></a>
+<p>Fault injection, telemetry, replay and recovery and containment reports for autonomous-system simulations.</p>
+<p>Python · FastAPI · Next.js · Docker · PX4/Gazebo</p>
+<p><a href="project-images/uas.png"><img src="project-images/uas.png" width="780" alt="Resilient UAS Lab — mock simulation, mission control."></a></p><p><em>Resilient UAS Lab — mock simulation, mission control.</em></p>
+</details>
+<details><summary><strong>Observability & automation lab</strong> — Repeatable infrastructure</summary>
+<a name="observability"></a>
+<p>Documented Ansible, Grafana Alloy and Mimir deployments, system metrics, remote write and troubleshooting.</p>
+<p>Ansible · Grafana · Alloy · Mimir</p>
+</details>
+<h2>Inside my toolkit</h2>
+<p>Infrastructure, security, software and AI environments — the technologies I use, the practices I contribute to and the areas I keep exploring.</p>
+<h3><img src="visuals/domain-1.svg" width="32" height="32" alt=""> Cybersecurity &amp; identity</h3>
+<p><img src="badges/defender.svg" alt="Defender" height="28">
+<img src="badges/sentinel.svg" alt="Sentinel" height="28"></p>
+<p><code>Zero Trust</code> · <code>IAM</code> · <code>MFA</code> · <code>RBAC</code> · <code>Conditional Access</code> · <code>OSINT</code></p>
+<details><summary>See practices &amp; experience</summary>
+<ul>
+<li>Cybersecurity audits, vulnerability analysis, risk identification and Windows/Linux hardening; security-by-design approaches.</li>
+<li>Microsoft Entra ID and Microsoft 365 security: identity protection, access policies and least privilege.</li>
+<li>Security documentation, IT/security charter, OSINT and audit support within LUCID; backup, resilience and business continuity.</li>
+</ul></details>
+<h3><img src="visuals/domain-2.svg" width="32" height="32" alt=""> Networks &amp; connectivity</h3>
+<p><img src="badges/fortinet.svg" alt="Fortinet" height="28">
+<img src="badges/cisco.svg" alt="Cisco" height="28">
+<img src="badges/wireguard.svg" alt="WireGuard" height="28">
+<img src="badges/kali-linux.svg" alt="Kali Linux" height="28"></p>
+<p><code>VLAN</code> · <code>VPN</code> · <code>RADIUS</code> · <code>Firewalling</code></p>
+<details><summary>See practices &amp; experience</summary>
+<ul>
+<li>Network segmentation and Zero Trust architectures, firewalls and network security.</li>
+<li>Infrastructure architecture, secure connectivity and network services.</li>
+</ul></details>
+<h3><img src="visuals/domain-3.svg" width="32" height="32" alt=""> Systems &amp; virtualization</h3>
+<p><img src="badges/windows.svg" alt="Windows Server" height="28">
+<img src="badges/linux.svg" alt="Linux Server" height="28">
+<img src="badges/macos.svg" alt="macOS" height="28">
+<img src="badges/proxmox.svg" alt="Proxmox VE" height="28">
+<img src="badges/vmware.svg" alt="VMware" height="28"></p>
+<p><code>Active Directory</code> · <code>DNS</code> · <code>DHCP</code> · <code>Group Policy</code></p>
+<details><summary>See practices &amp; experience</summary>
+<ul>
+<li>Windows and Linux environments, systems administration, virtualization and infrastructure monitoring.</li>
+<li>Active Directory services, DNS, DHCP and Group Policy; interest in Proxmox and infrastructure architecture.</li>
+</ul></details>
+<h3><img src="visuals/domain-4.svg" width="32" height="32" alt=""> Cloud &amp; Microsoft</h3>
+<p><img src="badges/microsoft-azure.svg" alt="Microsoft Azure" height="28">
+<img src="badges/microsoft-365.svg" alt="Microsoft 365" height="28">
+<img src="badges/azure-monitor.svg" alt="Azure Monitor" height="28">
+<img src="badges/google-cloud.svg" alt="Google Cloud" height="28"></p>
+<p><code>Entra ID</code></p>
+<details><summary>See practices &amp; experience</summary>
+<ul>
+<li>Secure cloud design, cloud services and on-premises infrastructure security.</li>
+<li>Secured Microsoft 365, Azure and Entra ID; contributed to monitoring with Defender, Sentinel and Azure Monitor.</li>
+
+</ul></details>
+<h3><img src="visuals/domain-5.svg" width="32" height="32" alt=""> DevOps, containers &amp; automation</h3>
+<p><img src="badges/docker.svg" alt="Docker" height="28">
+<img src="badges/git.svg" alt="Git" height="28">
+<img src="badges/github.svg" alt="GitHub" height="28">
+<img src="badges/github-actions.svg" alt="GitHub Actions" height="28">
+<img src="badges/azure-devops.svg" alt="Azure DevOps" height="28">
+<img src="badges/ansible.svg" alt="Ansible" height="28"></p>
+<p><code>Docker Compose</code> · <code>Terraform fundamentals</code></p>
+<details><summary>See practices &amp; experience</summary>
+<ul>
+<li>Building and operating Docker-based environments; containerized applications, reverse proxies and secure application deployment.</li>
+<li>Infrastructure automation, Infrastructure as Code, secure CI/CD support, versioning, pipelines and technical documentation. Terraform: fundamentals.</li>
+<li>Workflow automation and API-driven architectures; repeatable deployments and troubleshooting.</li>
+</ul></details>
+<h3><img src="visuals/domain-6.svg" width="32" height="32" alt=""> Software, scripting &amp; web</h3>
+<p><img src="badges/python.svg" alt="Python" height="28">
+<img src="badges/powershell.svg" alt="PowerShell" height="28">
+<img src="badges/bash.svg" alt="Bash" height="28">
+<img src="badges/javascript.svg" alt="JavaScript" height="28">
+<img src="badges/typescript.svg" alt="TypeScript" height="28">
+<img src="badges/next-js.svg" alt="Next.js" height="28">
+<img src="badges/react.svg" alt="React" height="28">
+<img src="badges/fastapi.svg" alt="FastAPI" height="28">
+<img src="badges/postgresql.svg" alt="PostgreSQL" height="28">
+<img src="badges/wordpress.svg" alt="WordPress" height="28">
+<img src="badges/odoo.svg" alt="Odoo" height="28"></p>
+<p><code>REST APIs</code> · <code>OR-Tools</code></p>
+<details><summary>See practices &amp; experience</summary>
+<ul>
+<li>End-to-end application development: requirements, architecture, implementation, testing and technical documentation.</li>
+<li>Modern web platforms, Dockerized web deployments, web infrastructure and hosting; webmaster work and technical coordination of web projects.</li>
+<li>Enterprise integrations including Odoo, business applications and optimisation.</li>
+</ul></details>
+<h3><img src="visuals/domain-7.svg" width="32" height="32" alt=""> AI environments &amp; R&amp;D support</h3>
+<p><img src="badges/chatgpt.svg" alt="ChatGPT" height="28">
+<img src="badges/claude.svg" alt="Claude" height="28">
+<img src="badges/notion.svg" alt="Notion" height="28">
+<img src="badges/figma.svg" alt="Figma" height="28">
+<img src="badges/canva.svg" alt="Canva" height="28"></p>
+<p><code>MLOps</code> · <code>LLM integration</code> · <code>AI governance</code> · <code>Audit logging</code> · <code>Reproducibility</code></p>
+<details><summary>See practices &amp; experience</summary>
+<ul>
+<li>AI-assisted business applications, practical AI integration and local/cloud AI experimentation; AI governance and security.</li>
+<li>At BRAIN by DTSC: support for versioning, pipelines, reproducibility and documentation for AI R&amp;D; access controls, RBAC, audit logging, encryption and GDPR-by-design practices.</li>
+<li>Helped structure research topics around causal AI, graphs, reinforcement learning, simulation and MLOps.</li>
+<li>Productivity and design tools: Notion, Figma and Canva. Ongoing technology watch across cybersecurity, AI and the wider tech ecosystem.</li>
+</ul></details>
+<h3><img src="visuals/domain-8.svg" width="32" height="32" alt=""> Observability &amp; resilience</h3>
+<p><img src="badges/grafana.svg" alt="Grafana" height="28">
+<img src="badges/prometheus.svg" alt="Prometheus" height="28"></p>
+<p><code>Alloy</code> · <code>Mimir</code> · <code>Telemetry</code> · <code>PX4/Gazebo</code></p>
+<details><summary>See practices &amp; experience</summary>
+<ul>
+<li>Observability &amp; automation lab: documented Ansible deployment of Grafana Alloy and a local Grafana/Mimir stack, system metrics, remote write, service configuration and troubleshooting.</li>
+<li>Resilient UAS Lab: declarative fault scenarios, telemetry, recovery and containment metrics, replay and comparison reports for autonomous-system simulations.</li>
+<li>Python/FastAPI, Next.js, Docker and PX4/Gazebo; segmented services, hardened containers and security checks in GitHub Actions. Published simulation reports.</li>
+</ul></details>
+<h2>Current interests</h2>
+<p>Where my curiosity goes. Personal interests, not proficiency scores.</p>
+<p><img src="visuals/interest-0.svg" width="360" alt="Cybersecurity: 95% interest">
+<img src="visuals/interest-1.svg" width="360" alt="Infrastructure: 95% interest">
+<img src="visuals/interest-2.svg" width="360" alt="Cloud &amp; Microsoft 365: 90% interest">
+<img src="visuals/interest-3.svg" width="360" alt="Automation: 90% interest">
+<img src="visuals/interest-4.svg" width="360" alt="AI Engineering: 85% interest">
+<img src="visuals/interest-5.svg" width="360" alt="Web Technologies: 80% interest"></p>
+<h2>Experience</h2>
+<details><summary><strong>Cybersecurity audit &amp; secure cloud architecture</strong> · ongoing</summary><p>Major French jewellery house (confidential client, NDA). Conducted a cybersecurity audit, designed secure cloud solutions and contributed to on-premises infrastructure security.</p></details>
+<details><summary><strong>Cybersecurity &amp; Infrastructure Administrator</strong> · DTSC · 2025–present</summary><p>Microsoft cloud and identity security; monitoring, hardening, vulnerability analysis, secure CI/CD, infrastructure administration and security documentation.</p></details>
+<details><summary><strong>DevSecOps, MLOps &amp; AI Security Support</strong> · BRAIN by DTSC · 2025–present</summary><p>Reproducible AI R&amp;D environments, versioning and pipelines, access controls, audit logging, encryption and GDPR-by-design practices.</p></details>
+
+<h2>Certification</h2>
+
+<img src="psd-i.png" width="54" alt="PSD I">
+
+**[Professional Scrum Developer I (PSD I)](https://www.credly.com/badges/484a67ca-3bf4-4104-98ee-7201c8e2186c/linked_in_profile)** · Scrum.org · November 2026
+
+<h2>Connect with me</h2>
+<p><a href="https://samuel-aulotte-portfolio.dt-services-1346.chatgpt.site"><img src="visuals/link-0.svg" alt="Portfolio" width="160"></a>
+<a href="https://www.linkedin.com/in/samuel-aulotte/"><img src="visuals/link-1.svg" alt="LinkedIn" width="160"></a>
+<a href="mailto:samuel.aulotte@dtsc.be"><img src="visuals/link-2.svg" alt="Email" width="160"></a>
+<a href="https://github.com/DT-Service-Consulting"><img src="visuals/link-3.svg" alt="DTSC / GitHub" width="160"></a>
 </p>
+<h2>Training &amp; languages</h2>
+<ul>
+<li><strong>Google · 2025:</strong> Cybersecurity Professional Training; Networks and Network Security.</li>
+<li><strong>Cisco · 2024:</strong> Networking Basics, Operating Systems Basics, Introduction to IoT.</li>
+<li><strong>French:</strong> native · <strong>English:</strong> C2 certified (2025).</li>
+</ul>
 
----
-
-## 👨‍💻 About Me
-
-I'm a **Systems & Network Administrator at [DT Services & Consulting](https://github.com/DT-Service-Consulting)**, working across IT infrastructure, cybersecurity, cloud environments, automation and web technologies.
-
-My work sits at the intersection of **infrastructure, security and modern software engineering**: designing reliable environments, securing identities and networks, deploying containerized applications, automating IT operations and exploring practical uses of AI inside business environments.
-
-- 🏢 Systems & Network Administrator at **DT Services & Consulting**
-- 🔐 Strong focus on **Cybersecurity, Zero Trust, Identity & Access Management**
-- ☁️ Working with **Microsoft 365, Entra ID, Azure and cloud services**
-- 🐳 Building and operating **Docker-based environments**
-- 🖥️ Interested in **virtualization, Proxmox, networking and infrastructure architecture**
-- 🤖 Exploring **AI integration, automation and AI-assisted business applications**
-- 🌐 Webmaster and contributor to several web platforms and digital projects
-- 📰 Always following what's happening in **cybersecurity, AI and the wider tech ecosystem**
-- 📫 Reach me at **samuel.aulotte@dtsc.be**
-
----
-
-## 🚀 What I Work On
-
-### 🛡️ Cybersecurity & Infrastructure
-
-- Network segmentation and Zero Trust architectures
-- Identity & Access Management
-- Microsoft Entra ID / Microsoft 365 security
-- MFA, RBAC and access policies
-- Firewalls and network security
-- Backup, resilience and business continuity
-- Infrastructure monitoring and hardening
-- Security-by-design approaches
-
-### ☁️ Cloud, Systems & DevOps
-
-- Microsoft Azure
-- Microsoft 365
-- Docker & Docker Compose
-- Linux & Windows environments
-- Proxmox VE
-- Virtualization
-- CI/CD concepts
-- Infrastructure automation
-- Reverse proxies and secure application deployment
-
-### 🤖 AI & Automation
-
-- AI-assisted business applications
-- LLM integration
-- Workflow automation
-- AI governance and security
-- API-driven architectures
-- Local and cloud AI experimentation
-- Integration with enterprise platforms such as Odoo
-
-### 🌐 Web & Applications
-
-- Modern web platforms
-- WordPress
-- Next.js / React ecosystems
-- FastAPI
-- REST APIs
-- Dockerized web deployments
-- Web infrastructure and hosting
-- Technical coordination of web projects
-
----
-
-# 💻 Tech Stack
-
-## ☁️ Cloud & Microsoft
-
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Microsoft 365](https://img.shields.io/badge/Microsoft_365-D83B01?style=for-the-badge&logo=microsoftoffice&logoColor=white)
-![Entra ID](https://img.shields.io/badge/Microsoft_Entra_ID-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-
-## 🛡️ Cybersecurity & Networking
-
-![Fortinet](https://img.shields.io/badge/Fortinet-EE3124?style=for-the-badge&logo=fortinet&logoColor=white)
-![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-
-`Zero Trust` · `IAM` · `MFA` · `RBAC` · `Network Segmentation` · `VLAN` · `VPN` · `RADIUS` · `Firewalling`
-
-## 🐳 DevOps, Containers & Virtualization
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
-
-`Docker Compose` · `Virtualization` · `Reverse Proxy` · `CI/CD` · `Infrastructure as Code`
-
-## 🖥️ Systems
-
-![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows11&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
-
-`Active Directory` · `Windows Server` · `Linux Server` · `DNS` · `DHCP` · `Group Policy`
-
-## ⚙️ Scripting & Development
-
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-## 🌐 Web & Backend
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
-![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)
-
-## 🤖 AI & Productivity
-
-![ChatGPT](https://img.shields.io/badge/ChatGPT-000000?style=for-the-badge&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
-
----
-
-## 🧠 Current Interests
-
-```text
-Cybersecurity          ███████████████████░   95%
-Infrastructure         ███████████████████░   95%
-Cloud & Microsoft 365  ██████████████████░░   90%
-Automation             ██████████████████░░   90%
-AI Engineering         █████████████████░░░   85%
-Web Technologies       ████████████████░░░░   80%
-```
-
----
-
-## 🤝 Connect With Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/samuel-aulotte/" target="_blank">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-Samuel_Aulotte-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
-  </a>
-  <a href="mailto:samuel.aulotte@dtsc.be">
-    <img
-      src="https://img.shields.io/badge/Email-samuel.aulotte%40dtsc.be-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
-      alt="Email"
-    />
-  </a>
-  <a href="https://github.com/DT-Service-Consulting" target="_blank">
-    <img
-      src="https://img.shields.io/badge/DTSC-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="DTSC GitHub"
-    />
-  </a>
-</p>
-
----
-
-<p align="center">
-  <i>Building secure, reliable and useful technology - from infrastructure to AI.</i>
-</p>
+Liège, Belgium · Open to hybrid work · **[Let’s build something useful.](mailto:samuel.aulotte@dtsc.be)**
