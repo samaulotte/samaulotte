@@ -1,9 +1,9 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="workshop-dark.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="workshop-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="workshop-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="workshop-light.gif">
-  <img alt="Samuel Aulotte — Systems, Software, Security. An isometric electronics workshop." src="workshop-light.gif" width="100%">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="workshop-v2-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="workshop-v2-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="workshop-v2-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="workshop-v2-light.gif">
+  <img alt="Samuel Aulotte — Systems, cloud & security. An animated isometric engineering workshop." src="workshop-v2-light.gif" width="100%">
 </picture>
 
 # Systems, cloud & security.
