@@ -1,7 +1,7 @@
 <!-- Original profile composition inspired by the editorial rhythm of AVIVASHISHTA29/AVIVASHISHTA29. -->
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="profile-cards/hero-dark-mobile.svg">
-  <source media="(max-width: 600px)" srcset="profile-cards/hero-light-mobile.svg">
+  <source media="(max-width: 900px) and (prefers-color-scheme: dark)" srcset="profile-cards/hero-dark-mobile.svg">
+  <source media="(max-width: 900px)" srcset="profile-cards/hero-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="profile-cards/hero-dark.svg">
   <img src="profile-cards/hero-light.svg" width="100%" alt="Samuel Aulotte — Systems, cloud & security. Secure infrastructure. Useful software. Liège, Belgium · DTSC.">
 </picture>
@@ -17,19 +17,19 @@
 
 Systems, cloud and security at **DT Services & Consulting**. End-to-end application development, automation and support for secure AI R&D environments.
 
-<p align="center"><img src="profile-cards/secure.svg" width="280" alt="Secure. Cloud, identity and resilient systems."><img src="profile-cards/build.svg" width="280" alt="Build. Useful applications, from model to interface."><img src="profile-cards/automate.svg" width="280" alt="Automate. Repeatable deployments. Observable environments."></p>
+<p align="center"><img src="profile-cards/secure.svg" width="260" alt="Secure. Cloud, identity and resilient systems."><img src="profile-cards/build.svg" width="260" alt="Build. Useful applications, from model to interface."><img src="profile-cards/automate.svg" width="260" alt="Automate. Repeatable deployments. Observable environments."></p>
 
 ## Selected work
 
 Scheduling, digital twins and resilience testing. From the model to the interface, with the infrastructure underneath.
 
 <p align="center">
-<a href="#warevia"><img src="project-images/warevia.png" width="260" alt="Warevia — warehouse digital twin. Open project details below."></a>
-<a href="#humapace"><img src="project-images/humapace.png" width="260" alt="HumaPace — workforce scenario studio. Open project details below."></a>
-<a href="#uas"><img src="project-images/uas.png" width="260" alt="Resilient UAS Lab — mission control simulation. Open project details below."></a>
+<a href="#user-content-warevia"><img src="project-images/warevia.png" width="260" alt="Warevia — warehouse digital twin. Open project details below."></a>
+<a href="#user-content-humapace"><img src="project-images/humapace.png" width="260" alt="HumaPace — workforce scenario studio. Open project details below."></a>
+<a href="#user-content-uas"><img src="project-images/uas.png" width="260" alt="Resilient UAS Lab — mission control simulation. Open project details below."></a>
 </p>
 
-<p align="center"><a href="#warevia">Warevia</a> &nbsp; / &nbsp; <a href="#humapace">HumaPace</a> &nbsp; / &nbsp; <a href="#uas">Resilient UAS Lab</a></p>
+<p align="center"><a href="#user-content-warevia">Warevia</a> &nbsp; / &nbsp; <a href="#user-content-humapace">HumaPace</a> &nbsp; / &nbsp; <a href="#user-content-uas">Resilient UAS Lab</a></p>
 
 <p><sub>Personal labs and portfolio demonstrations. Synthetic or simulated data; project context below.</sub></p>
 
