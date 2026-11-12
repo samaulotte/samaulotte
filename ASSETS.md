@@ -8,6 +8,14 @@
 
 The Conductor portfolio capture contains an adapted rendering of [MacBook Pro M3 16 inch 2024](https://sketchfab.com/3d-models/macbook-pro-m3-16-inch-2024-8e34fc2b303144f78490007d91ff57c4) by **jackbaeten**, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The model is articulated and used as the portfolio display.
 
-- `profile-cards/`: original editorial compositions for Samuel Aulotte. The ribbon is an original parametric drawing; project covers embed the existing public captures from `project-images/`, keeping their lab/simulation context. Font data is embedded in the SVGs so no external font request is needed. Desktop/mobile and light/dark variants use native GitHub `picture` selection. Static artwork respects reduced-motion preferences by design; the existing workshop retains its own GIF/static fallback.
-- Typography: [Instrument Serif](https://github.com/google/fonts/tree/main/ofl/instrumentserif), regular and italic, under [SIL OFL 1.1](licenses/instrument-serif-OFL.txt); [Manrope](https://github.com/sharanda/manrope), from the installed Fontsource distribution, under [SIL OFL 1.1](licenses/manrope-OFL.txt). Font binaries are embedded without modification.
-- Editorial inspiration: [Avi Vashishta’s GitHub profile](https://github.com/AVIVASHISHTA29/AVIVASHISHTA29). No source artwork, portraits or statistics copied. Fonts are sourced from their independent open-source distributions.
+- `contributions/`: calendar generated from [Samuel’s public GitHub contribution calendar](https://github.com/users/samaulotte/contributions), with the title “We add value, every day”. Dates, counts and levels come from that unauthenticated public endpoint; no private repository data is accessed. The SVG shows the snapshot’s final date, and `data.json` records the source and daily values.
+- Visual inspiration: [Avi Vashishta’s “Every day, in blue” card](https://github.com/AVIVASHISHTA29/AVIVASHISHTA29). This renderer is written for Samuel; the other profile’s data and artwork are not copied. The existing README content and assets remain intact.
+- `fonts/`: unmodified Instrument Serif regular and italic from [Google Fonts](https://github.com/google/fonts/tree/main/ofl/instrumentserif), under [SIL OFL 1.1](fonts/OFL.txt). These fonts are embedded in the generated SVGs, with no external font request.
+
+## Updating the contribution card
+
+Run `python3 scripts/update_contributions.py` to fetch the public calendar and regenerate all four variants, or pass `--html path/to/saved-response.html` for an offline check. Run `python3 -m unittest discover -s tests` to validate parsing and date preservation. No dependencies or personal token are required.
+
+The GitHub Actions workflow runs daily at 06:23 UTC once merged into the default branch, and can also be triggered manually. Scheduled runs may be delayed or disabled by GitHub after prolonged repository inactivity. An invalid or incomplete response fails the job and leaves the last committed calendar intact. The image’s update date makes an old snapshot visible. Desktop shows the complete calendar on one grid; narrow screens split the same weeks across two grids, without dropping dates.
+
+- `certifications/`: CertiProf Lead Auditor and Lead Implementer badge images supplied by Samuel, copied without modification. Names, issue/expiry dates and verification links match the certifications already documented in his portfolio. The original PSD I credential remains present.

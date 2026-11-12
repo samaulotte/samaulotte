@@ -1,79 +1,67 @@
-<!-- Original editorial composition for Samuel Aulotte. Asset sources and font licenses: ASSETS.md. -->
 <picture>
-  <source media="(max-width: 900px) and (prefers-color-scheme: dark)" srcset="profile-cards/hero-dark-mobile.svg">
-  <source media="(max-width: 900px)" srcset="profile-cards/hero-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="profile-cards/hero-dark.svg">
-  <img src="profile-cards/hero-light.svg" width="100%" alt="Samuel Aulotte — Systems, cloud &amp; security. Secure foundations. Useful software. Liège, Belgium · DTSC.">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="workshop-v2-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="workshop-v2-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="workshop-v2-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="workshop-v2-light.gif">
+  <img alt="Samuel Aulotte — Systems, cloud & security. An animated isometric engineering workshop." src="workshop-v2-light.gif" width="100%">
 </picture>
 
-<p align="center">
-  <a href="https://samuel-aulotte-portfolio.dt-services-1346.chatgpt.site"><strong>Explore my portfolio ↗</strong></a> &nbsp; / &nbsp;
-  <a href="https://samuel-aulotte-portfolio.dt-services-1346.chatgpt.site/documents/cv-samuel-aulotte.pdf">CV</a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/samuel-aulotte/">LinkedIn</a> &nbsp; / &nbsp;
-  <a href="mailto:samuel.aulotte@dtsc.be">Email</a>
-</p>
+# Systems, cloud & security.
 
+I connect secure infrastructure with useful software.
 
-I connect secure infrastructure with useful software. Systems, cloud and security at **DT Services & Consulting**, with end-to-end application development, automation and support for secure AI R&D environments.
+Systems, cloud and security at DT Services & Consulting. End-to-end application development, automation and support for secure AI R&D environments.
 
+[Explore my portfolio ↗](https://samuel-aulotte-portfolio.dt-services-1346.chatgpt.site) · [CV](https://samuel-aulotte-portfolio.dt-services-1346.chatgpt.site/documents/cv-samuel-aulotte.pdf) · [LinkedIn](https://www.linkedin.com/in/samuel-aulotte/) · [Contact](mailto:samuel.aulotte@dtsc.be)
+
+<!-- BEGIN contribution calendar -->
 <picture>
-  <source media="(max-width: 900px) and (prefers-color-scheme: dark)" srcset="profile-cards/practice-dark-mobile.svg">
-  <source media="(max-width: 900px)" srcset="profile-cards/practice-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="profile-cards/practice-dark.svg">
-  <img src="profile-cards/practice-light.svg" width="100%" alt="Secure: cloud, identity and resilience. Build: from model to interface. Automate: repeatable and observable environments.">
+  <source media="(max-width: 900px) and (prefers-color-scheme: dark)" srcset="contributions/contributions-dark-mobile.svg">
+  <source media="(max-width: 900px)" srcset="contributions/contributions-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="contributions/contributions-dark.svg">
+  <img src="contributions/contributions-light.svg" width="100%" alt="We add value, every day — Samuel Aulotte’s contributions visible on his public GitHub profile, over the past year.">
 </picture>
 
-## Selected work
+<!-- END contribution calendar -->
 
-<p><a href="#user-content-warevia"><picture>
-  <source media="(max-width: 900px)" srcset="profile-cards/work-warevia-mobile.svg">
-  <img src="profile-cards/work-warevia.svg" width="100%" alt="Warevia — 3D warehouse digital twin. Simulated inventory and traceability. Open project details below.">
-</picture></a></p>
-<p align="center"><a href="#user-content-humapace"><img src="profile-cards/work-humapace.svg" width="410" alt="HumaPace — workforce scheduling with synthetic data. Open project details below."></a> <a href="#user-content-uas"><img src="profile-cards/work-uas.svg" width="410" alt="Resilient UAS Lab — fault injection and recovery testing in mock simulations. Open project details below."></a></p>
-
-<p align="center"><a href="#user-content-warevia">Warevia</a> &nbsp; / &nbsp; <a href="#user-content-humapace">HumaPace</a> &nbsp; / &nbsp; <a href="#user-content-uas">Resilient UAS Lab</a></p>
-<p><sub>Personal labs and portfolio demonstrations. Synthetic or simulated data; project context below.</sub></p>
-
-<a name="conductor"></a>
+<h2>Built in the workshop</h2>
+<p>Scheduling, digital twins and resilience testing. From the model to the interface, with the infrastructure underneath.</p>
+<p><a href="#user-content-warevia"><img src="project-images/warevia.png" width="260" alt="Explore Warevia — warehouse digital twin"></a>
+<a href="#user-content-humapace"><img src="project-images/humapace.png" width="260" alt="Explore HumaPace — scenario studio"></a>
+<a href="#user-content-uas"><img src="project-images/uas.png" width="260" alt="Explore Resilient UAS Lab — mission control"></a></p>
+<p><a href="#user-content-warevia">Warevia</a> · <a href="#user-content-humapace">HumaPace</a> · <a href="#user-content-uas">Resilient UAS Lab</a></p>
 <details><summary><strong>Conductor</strong> — Finite-capacity planning</summary>
+<a name="conductor"></a>
 <p>Odoo-connected planning with OR-Tools CP-SAT, versioned scenarios and human approval.</p>
 <p>Python · FastAPI · Next.js · PostgreSQL · OR-Tools · Odoo</p>
 <p><a href="project-images/conductor-demo.png"><img src="project-images/conductor-demo.png" width="780" alt="Conductor — pedagogical portfolio demonstration with synthetic data."></a></p><p><em>Conductor — pedagogical portfolio demonstration with synthetic data.</em></p>
 </details>
-<a name="warevia"></a>
 <details><summary><strong>OPERIS & Warevia</strong> — Industrial digital twins</summary>
+<a name="warevia"></a>
 <p>3D production and warehouse twins, isolated MES simulation, transactional inventory and traceability.</p>
 <p>Three.js · React Three Fiber · FastAPI · PostgreSQL · Docker</p>
 <p><a href="project-images/warevia.png"><img src="project-images/warevia.png" width="780" alt="Warevia — warehouse laboratory, simulated inventory."></a></p><p><em>Warevia — warehouse laboratory, simulated inventory.</em></p>
 <p><a href="project-images/warevia-anatomy.png"><img src="project-images/warevia-anatomy.png" width="390" alt="Warevia Anatomy — rack and inventory inspection"></a></p>
 </details>
-<a name="humapace"></a>
 <details><summary><strong>HumaPace</strong> — Workforce scheduling</summary>
+<a name="humapace"></a>
 <p>Qualifications, availability, replacements and travel constraints, with human-approved scenarios.</p>
 <p>Python · OR-Tools · FastAPI · Next.js · PostgreSQL · Leaflet</p>
 <p><a href="project-images/humapace.png"><img src="project-images/humapace.png" width="780" alt="HumaPace — scenario studio, synthetic education datasets."></a></p><p><em>HumaPace — scenario studio, synthetic education datasets.</em></p>
 </details>
-<a name="uas"></a>
 <details><summary><strong>Resilient UAS Lab</strong> — Resilience under failure</summary>
+<a name="uas"></a>
 <p>Fault injection, telemetry, replay and recovery and containment reports for autonomous-system simulations.</p>
 <p>Python · FastAPI · Next.js · Docker · PX4/Gazebo</p>
 <p><a href="project-images/uas.png"><img src="project-images/uas.png" width="780" alt="Resilient UAS Lab — mock simulation, mission control."></a></p><p><em>Resilient UAS Lab — mock simulation, mission control.</em></p>
 </details>
-<a name="observability"></a>
 <details><summary><strong>Observability & automation lab</strong> — Repeatable infrastructure</summary>
+<a name="observability"></a>
 <p>Documented Ansible, Grafana Alloy and Mimir deployments, system metrics, remote write and troubleshooting.</p>
 <p>Ansible · Grafana · Alloy · Mimir</p>
 </details>
-
-## Tools & practices
-
-**Infrastructure & security** · Linux, Windows Server, Azure, Microsoft 365, Entra ID, network segmentation.  
-**Software & automation** · Python, PowerShell, TypeScript, React, Next.js, FastAPI, PostgreSQL, Ansible, Docker.  
-**AI & observability** · Secure R&D environments, reproducibility, access controls, Grafana, Alloy and Mimir.
-
-<details>
-<summary><strong>Explore the full toolkit</strong> — technologies, practices & experience</summary>
-
+<h2>Inside my toolkit</h2>
+<p>Infrastructure, security, software and AI environments — the technologies I use, the practices I contribute to and the areas I keep exploring.</p>
 <h3><img src="visuals/domain-1.svg" width="32" height="32" alt=""> Cybersecurity &amp; identity</h3>
 <p><img src="badges/defender.svg" alt="Defender" height="28">
 <img src="badges/sentinel.svg" alt="Sentinel" height="28"></p>
@@ -176,12 +164,7 @@ I connect secure infrastructure with useful software. Systems, cloud and securit
 <li>Resilient UAS Lab: declarative fault scenarios, telemetry, recovery and containment metrics, replay and comparison reports for autonomous-system simulations.</li>
 <li>Python/FastAPI, Next.js, Docker and PX4/Gazebo; segmented services, hardened containers and security checks in GitHub Actions. Published simulation reports.</li>
 </ul></details>
-
-</details>
-
-<details>
-<summary><strong>Current interests</strong> — what I keep exploring</summary>
-
+<h2>Current interests</h2>
 <p>Where my curiosity goes. Personal interests, not proficiency scores.</p>
 <p><img src="visuals/interest-0.svg" width="360" alt="Cybersecurity: 95% interest">
 <img src="visuals/interest-1.svg" width="360" alt="Infrastructure: 95% interest">
@@ -189,49 +172,43 @@ I connect secure infrastructure with useful software. Systems, cloud and securit
 <img src="visuals/interest-3.svg" width="360" alt="Automation: 90% interest">
 <img src="visuals/interest-4.svg" width="360" alt="AI Engineering: 85% interest">
 <img src="visuals/interest-5.svg" width="360" alt="Web Technologies: 80% interest"></p>
-
-</details>
-
-## Experience & credentials
-
+<h2>Experience</h2>
 <details><summary><strong>Cybersecurity audit &amp; secure cloud architecture</strong> · ongoing</summary><p>Major French jewellery house (confidential client, NDA). Conducted a cybersecurity audit, designed secure cloud solutions and contributed to on-premises infrastructure security.</p></details>
 <details><summary><strong>Cybersecurity &amp; Infrastructure Administrator</strong> · DTSC · 2025–present</summary><p>Microsoft cloud and identity security; monitoring, hardening, vulnerability analysis, secure CI/CD, infrastructure administration and security documentation.</p></details>
 <details><summary><strong>DevSecOps, MLOps &amp; AI Security Support</strong> · BRAIN by DTSC · 2025–present</summary><p>Reproducible AI R&amp;D environments, versioning and pipelines, access controls, audit logging, encryption and GDPR-by-design practices.</p></details>
 
+<h2>Certifications</h2>
 
-<p><a href="https://www.credly.com/badges/484a67ca-3bf4-4104-98ee-7201c8e2186c/linked_in_profile"><img src="psd-i.png" width="54" align="left" alt="Professional Scrum Developer I badge"></a>
-<strong><a href="https://www.credly.com/badges/484a67ca-3bf4-4104-98ee-7201c8e2186c/linked_in_profile">Professional Scrum Developer I</a></strong><br>
-Scrum.org · November 2026</p>
+<!-- BEGIN new certifications -->
+<p><a href="https://verify.certiprof.com/en?id=113524958"><img src="certifications/iso-27001-lead-auditor.png" width="64" align="left" alt="CertiProf — ISO/IEC 27001:2022 Lead Auditor (I27001LA)"></a>
+<strong><a href="https://verify.certiprof.com/en?id=113524958">ISO/IEC 27001:2022 Lead Auditor (I27001LA)</a></strong><br>
+CertiProf · 11 November 2026<br>
+<sub>Valid until 10 November 2029</sub></p>
 <br clear="left">
 
-<details>
-<summary><strong>Training & languages</strong></summary>
+<p><a href="https://profiles.badgeclaimed.com/user-395451/badges/urn:uuid:4a0af3b3-72aa-4c19-a62b-5905d27a686a.html"><img src="certifications/iso-27001-lead-implementer.png" width="64" align="left" alt="CertiProf — ISO/IEC 27001:2022 Lead Implementer (I27001LI)"></a>
+<strong><a href="https://profiles.badgeclaimed.com/user-395451/badges/urn:uuid:4a0af3b3-72aa-4c19-a62b-5905d27a686a.html">ISO/IEC 27001:2022 Lead Implementer (I27001LI)</a></strong><br>
+CertiProf · 11 November 2026<br>
+<sub>Valid until 10 November 2029</sub></p>
+<br clear="left">
 
+<!-- END new certifications -->
+
+<img src="psd-i.png" width="54" alt="PSD I">
+
+**[Professional Scrum Developer I (PSD I)](https://www.credly.com/badges/484a67ca-3bf4-4104-98ee-7201c8e2186c/linked_in_profile)** · Scrum.org · November 2026
+
+<h2>Connect with me</h2>
+<p><a href="https://samuel-aulotte-portfolio.dt-services-1346.chatgpt.site"><img src="visuals/link-0.svg" alt="Portfolio" width="160"></a>
+<a href="https://www.linkedin.com/in/samuel-aulotte/"><img src="visuals/link-1.svg" alt="LinkedIn" width="160"></a>
+<a href="mailto:samuel.aulotte@dtsc.be"><img src="visuals/link-2.svg" alt="Email" width="160"></a>
+<a href="https://github.com/DT-Service-Consulting"><img src="visuals/link-3.svg" alt="DTSC / GitHub" width="160"></a>
+</p>
+<h2>Training &amp; languages</h2>
 <ul>
 <li><strong>Google · 2025:</strong> Cybersecurity Professional Training; Networks and Network Security.</li>
 <li><strong>Cisco · 2024:</strong> Networking Basics, Operating Systems Basics, Introduction to IoT.</li>
 <li><strong>French:</strong> native · <strong>English:</strong> C2 certified (2025).</li>
 </ul>
 
-</details>
-
-<details>
-<summary><strong>Inside the workshop</strong> — an illustrated look at my engineering world</summary>
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="workshop-v2-dark.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="workshop-v2-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="workshop-v2-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="workshop-v2-light.gif">
-  <img alt="Samuel Aulotte — Systems, cloud & security. An animated isometric engineering workshop." src="workshop-v2-light.gif" width="100%">
-</picture>
-
-</details>
-
----
-
-### Let’s build something useful.
-
-[Portfolio ↗](https://samuel-aulotte-portfolio.dt-services-1346.chatgpt.site) · [LinkedIn](https://www.linkedin.com/in/samuel-aulotte/) · [samuel.aulotte@dtsc.be](mailto:samuel.aulotte@dtsc.be) · [DTSC on GitHub](https://github.com/DT-Service-Consulting)
-
-<sub>Liège, Belgium · Open to hybrid work</sub>
+Liège, Belgium · Open to hybrid work · **[Let’s build something useful.](mailto:samuel.aulotte@dtsc.be)**
