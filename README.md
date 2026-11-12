@@ -14,6 +14,16 @@ Systems, cloud and security at DT Services & Consulting. End-to-end application 
 
 [Explore my portfolio ↗](https://samuel-aulotte-portfolio.dt-services-1346.chatgpt.site) · [CV](https://samuel-aulotte-portfolio.dt-services-1346.chatgpt.site/documents/cv-samuel-aulotte.pdf) · [LinkedIn](https://www.linkedin.com/in/samuel-aulotte/) · [Contact](mailto:samuel.aulotte@dtsc.be)
 
+<!-- BEGIN contribution calendar -->
+<picture>
+  <source media="(max-width: 900px) and (prefers-color-scheme: dark)" srcset="contributions/contributions-dark-mobile.svg">
+  <source media="(max-width: 900px)" srcset="contributions/contributions-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="contributions/contributions-dark.svg">
+  <img src="contributions/contributions-light.svg" width="100%" alt="We add value, every day — Samuel Aulotte’s contributions visible on his public GitHub profile, over the past year.">
+</picture>
+
+<!-- END contribution calendar -->
+
 <h2>Built in the workshop</h2>
 <p>Scheduling, digital twins and resilience testing. From the model to the interface, with the infrastructure underneath.</p>
 <p><a href="#user-content-warevia"><img src="project-images/warevia.png" width="260" alt="Explore Warevia — warehouse digital twin"></a>
@@ -167,7 +177,22 @@ Systems, cloud and security at DT Services & Consulting. End-to-end application 
 <details><summary><strong>Cybersecurity &amp; Infrastructure Administrator</strong> · DTSC · 2025–present</summary><p>Microsoft cloud and identity security; monitoring, hardening, vulnerability analysis, secure CI/CD, infrastructure administration and security documentation.</p></details>
 <details><summary><strong>DevSecOps, MLOps &amp; AI Security Support</strong> · BRAIN by DTSC · 2025–present</summary><p>Reproducible AI R&amp;D environments, versioning and pipelines, access controls, audit logging, encryption and GDPR-by-design practices.</p></details>
 
-<h2>Certification</h2>
+<h2>Certifications</h2>
+
+<!-- BEGIN new certifications -->
+<p><a href="https://verify.certiprof.com/en?id=113524958"><img src="certifications/iso-27001-lead-auditor.png" width="64" align="left" alt="CertiProf — ISO/IEC 27001:2022 Lead Auditor (I27001LA)"></a>
+<strong><a href="https://verify.certiprof.com/en?id=113524958">ISO/IEC 27001:2022 Lead Auditor (I27001LA)</a></strong><br>
+CertiProf · 11 November 2026<br>
+<sub>Valid until 10 November 2029</sub></p>
+<br clear="left">
+
+<p><a href="https://profiles.badgeclaimed.com/user-395451/badges/urn:uuid:4a0af3b3-72aa-4c19-a62b-5905d27a686a.html"><img src="certifications/iso-27001-lead-implementer.png" width="64" align="left" alt="CertiProf — ISO/IEC 27001:2022 Lead Implementer (I27001LI)"></a>
+<strong><a href="https://profiles.badgeclaimed.com/user-395451/badges/urn:uuid:4a0af3b3-72aa-4c19-a62b-5905d27a686a.html">ISO/IEC 27001:2022 Lead Implementer (I27001LI)</a></strong><br>
+CertiProf · 11 November 2026<br>
+<sub>Valid until 10 November 2029</sub></p>
+<br clear="left">
+
+<!-- END new certifications -->
 
 <img src="psd-i.png" width="54" alt="PSD I">
 
