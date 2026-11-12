@@ -1,9 +1,9 @@
-<!-- Original profile composition inspired by the editorial rhythm of AVIVASHISHTA29/AVIVASHISHTA29. -->
+<!-- Original editorial composition for Samuel Aulotte. Asset sources and font licenses: ASSETS.md. -->
 <picture>
   <source media="(max-width: 900px) and (prefers-color-scheme: dark)" srcset="profile-cards/hero-dark-mobile.svg">
   <source media="(max-width: 900px)" srcset="profile-cards/hero-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="profile-cards/hero-dark.svg">
-  <img src="profile-cards/hero-light.svg" width="100%" alt="Samuel Aulotte — Systems, cloud & security. Secure infrastructure. Useful software. Liège, Belgium · DTSC.">
+  <img src="profile-cards/hero-light.svg" width="100%" alt="Samuel Aulotte — Systems, cloud &amp; security. Secure foundations. Useful software. Liège, Belgium · DTSC.">
 </picture>
 
 <p align="center">
@@ -13,24 +13,25 @@
   <a href="mailto:samuel.aulotte@dtsc.be">Email</a>
 </p>
 
-# I connect secure infrastructure with useful software.
 
-Systems, cloud and security at **DT Services & Consulting**. End-to-end application development, automation and support for secure AI R&D environments.
+I connect secure infrastructure with useful software. Systems, cloud and security at **DT Services & Consulting**, with end-to-end application development, automation and support for secure AI R&D environments.
 
-<p align="center"><img src="profile-cards/secure.svg" width="260" alt="Secure. Cloud, identity and resilient systems."><img src="profile-cards/build.svg" width="260" alt="Build. Useful applications, from model to interface."><img src="profile-cards/automate.svg" width="260" alt="Automate. Repeatable deployments. Observable environments."></p>
+<picture>
+  <source media="(max-width: 900px) and (prefers-color-scheme: dark)" srcset="profile-cards/practice-dark-mobile.svg">
+  <source media="(max-width: 900px)" srcset="profile-cards/practice-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="profile-cards/practice-dark.svg">
+  <img src="profile-cards/practice-light.svg" width="100%" alt="Secure: cloud, identity and resilience. Build: from model to interface. Automate: repeatable and observable environments.">
+</picture>
 
 ## Selected work
 
-Scheduling, digital twins and resilience testing. From the model to the interface, with the infrastructure underneath.
-
-<p align="center">
-<a href="#user-content-warevia"><img src="project-images/warevia.png" width="260" alt="Warevia — warehouse digital twin. Open project details below."></a>
-<a href="#user-content-humapace"><img src="project-images/humapace.png" width="260" alt="HumaPace — workforce scenario studio. Open project details below."></a>
-<a href="#user-content-uas"><img src="project-images/uas.png" width="260" alt="Resilient UAS Lab — mission control simulation. Open project details below."></a>
-</p>
+<p><a href="#user-content-warevia"><picture>
+  <source media="(max-width: 900px)" srcset="profile-cards/work-warevia-mobile.svg">
+  <img src="profile-cards/work-warevia.svg" width="100%" alt="Warevia — 3D warehouse digital twin. Simulated inventory and traceability. Open project details below.">
+</picture></a></p>
+<p align="center"><a href="#user-content-humapace"><img src="profile-cards/work-humapace.svg" width="410" alt="HumaPace — workforce scheduling with synthetic data. Open project details below."></a> <a href="#user-content-uas"><img src="profile-cards/work-uas.svg" width="410" alt="Resilient UAS Lab — fault injection and recovery testing in mock simulations. Open project details below."></a></p>
 
 <p align="center"><a href="#user-content-warevia">Warevia</a> &nbsp; / &nbsp; <a href="#user-content-humapace">HumaPace</a> &nbsp; / &nbsp; <a href="#user-content-uas">Resilient UAS Lab</a></p>
-
 <p><sub>Personal labs and portfolio demonstrations. Synthetic or simulated data; project context below.</sub></p>
 
 <a name="conductor"></a>
