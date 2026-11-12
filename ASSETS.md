@@ -7,3 +7,5 @@
 - `project-images/`: captures from Samuel’s project work. Warevia and HumaPace use lab/synthetic data; Resilient UAS Lab shows a mock simulation; Conductor shows the pedagogical portfolio demonstration.
 
 The Conductor portfolio capture contains an adapted rendering of [MacBook Pro M3 16 inch 2024](https://sketchfab.com/3d-models/macbook-pro-m3-16-inch-2024-8e34fc2b303144f78490007d91ff57c4) by **jackbaeten**, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The model is articulated and used as the portfolio display.
+
+- `profile-cards/`: original static SVG compositions created for Samuel Aulotte. Editorial inspiration: [Avi Vashishta’s GitHub profile](https://github.com/AVIVASHISHTA29/AVIVASHISHTA29); no source artwork, portraits, statistics or fonts copied. Native font stacks, no external requests or scripts. The hero has light/dark and mobile variants; content also appears in image alternatives and the README. Existing workshop illustrations and their credits remain unchanged.
