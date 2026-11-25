@@ -2,7 +2,7 @@
   "source": "https://github.com/users/samaulotte/contributions",
   "range": {
     "start": "2025-11-23",
-    "end": "2026-11-24"
+    "end": "2026-11-25"
   },
   "total": 745,
   "days": [
@@ -1838,6 +1838,11 @@
     },
     {
       "date": "2026-11-24",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-11-25",
       "count": 0,
       "level": 0
     }
